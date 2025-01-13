@@ -1,0 +1,137 @@
+:root{
+
+    --Green:hsl(75, 94%, 57%);
+    --Whit:hsl(0, 0%, 100%);
+
+--Grey700:hsl(0, 0%, 20%);
+--Grey800:hsl(0, 0%, 12%);
+--Grey900:hsl(0, 0%, 8%);
+
+}
+
+
+@font-face{
+    font-family: "cairo" ;
+    src:url(social-links-profile-main/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+@font-face{
+
+    font-family: "cairo";
+    src: url(social-links-profile-main/social-links-profile-main/assets/fonts/static/Inter-Bold.ttf);
+
+}
+
+
+@font-face{
+    font-family: "cairo";
+    src: url(social-links-profile-main/social-links-profile-main/assets/fonts/static/Inter-Regular.ttf);
+}
+
+
+
+
+
+@font-face{
+    font-family: "cairo";
+    src: url(social-links-profile-main/social-links-profile-main/assets/fonts/static/Inter-SemiBold.ttf);
+
+
+}
+
+
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'cairo';
+
+
+}
+
+
+
+body{
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--Grey900);
+    align-items: center;
+}
+
+
+.card{
+
+  background-color:var(--Grey800) ; 
+  width: 29%;
+  padding: 26px; 
+  border-radius:20px ;
+  text-align: center;
+}
+
+
+
+body .card .logo img{
+
+   border-radius: 50%;
+   width: 80px;
+   margin-bottom: 20px;
+
+
+}
+
+
+
+body .card .text h1{
+
+    color:var(--Whit);
+    margin:10px 0px ;
+
+}
+
+
+body .card .text h2{
+
+
+    color: var(--Grey700);
+}
+
+body .card .text h3{
+    color:rgb(235, 232, 229);
+    margin: 25px 0px;
+
+}
+
+
+body .card .sochial a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 25px 0px;
+    background-color: var(--Grey700);
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+
+body .card .sochial a:hover{
+    background-color: var(--Green);
+    color: var(--Grey900);
+}
+
+
+
+
+
+
+
+
+
